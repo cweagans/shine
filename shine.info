@@ -1,0 +1,18 @@
+name = Shine
+description = Shine is built from the design at http://themeforest.net/item/shine-awesome-psd-template/140368. Use of this theme is restricted to people who have purchased the PSD design.
+core = 7.x
+engine = phptemplate
+
+regions[sidebar] = Sidebar
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[content] = Content
+regions[page_bottom] = Page bottom
+regions[footer_left] = Footer Left
+regions[footer_middle] = Footer Middle
+regions[footer_right] = Footer Right
+
+stylesheets[screen][] = shine.css
+
+scripts[] = shine.js
