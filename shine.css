@@ -531,7 +531,7 @@ fieldset.filter-wrapper {
 }
 
 ul.tweets-pulled-listing {
-  margin-left: 0;
+  padding-left: 0;
 }
 
 ul.tweets-pulled-listing div.tweet-authorphoto,
