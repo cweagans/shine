@@ -529,3 +529,28 @@ ul.pager li.pager-current {
 fieldset.filter-wrapper {
   display: none;
 }
+
+ul.tweets-pulled-listing {
+  margin-left: 0;
+}
+
+ul.tweets-pulled-listing div.tweet-authorphoto,
+ul.tweets-pulled-listing div.tweet-divider {
+  display: none;
+}
+
+ul.tweets-pulled-listing span.tweet-author a {
+  color: #8c9fbc;
+}
+
+ul.tweets-pulled-listing span.tweet-text,
+ul.tweets-pulled-listing span.tweet-text a {
+  color: #bbbbbb;
+}
+
+ul.tweets-pulled-listing div.tweet-time {
+  font-size: 11px;
+  color: #595959;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
