@@ -2,6 +2,7 @@
 
 body {
   background: #000000 url('images/page-background.jpg') no-repeat;
+  background-position: center top;
   color: #FFFFFF;
   font-family: "Ubuntu", Arial, sans-serif;
   font-size: 13px;
