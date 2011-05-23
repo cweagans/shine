@@ -81,13 +81,14 @@
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <?php print $user_picture; ?>
+  <!-- This is commented out for now. Need to fix the styling -->
+  <!--<?php print $user_picture; ?>
   <?php if (isset($content['links']['comment']['#links']['comment-comments']['href'])): ?>
     <div class="node-comment-count">
       <a href="/<?php print $content['links']['comment']['#links']['comment-comments']['href']; ?>#comments"><?php print $comment_count; ?>&nbsp;&nbsp;</a>
     </div>
     <?php unset($content['links']['comment']['#links']['comment-comments']); ?>
-  <?php endif; ?>
+  <?php endif; ?>-->
 
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
@@ -109,6 +110,7 @@
       print render($content);
     ?>
     <?php print render($content['links']); ?>
+    <div class="clearfix"></div>
   </div>
 
   <?php print render($content['comments']); ?>
