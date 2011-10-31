@@ -168,6 +168,7 @@ body.not-front .node-comment-count {
 .node .content {
   border-bottom: 1px solid #CACACA;
   padding-bottom: 25px;
+  color: #6D6D6D;
 }
 
 .node .content p {
