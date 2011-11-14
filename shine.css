@@ -78,6 +78,7 @@ body {
   line-height: 45px;
   border-bottom: 1px solid #CACACA;
   background-color: #FFFFFF;
+  position: relative;
 }
 
 #navigation ul {
@@ -108,6 +109,21 @@ body {
 #navigation ul li a:hover {
   background: #EFEFEF url('images/menu-active-bg.png') repeat-x;
   border: 1px solid #C0C0C0;
+}
+
+#navigation ul li.last a {
+  height: 93px;
+  width: 67px;
+  position: absolute;
+  right: 0;
+  text-indent: -9999px;
+  margin-top: -13px;
+  border: none;
+  background: transparent url('images/hire-me.png') no-repeat;
+}
+
+#navigation ul li.last a:hover {
+  background: transparent url('images/hire-me-hover.png') no-repeat;
 }
 
 #container-bottom-image {
