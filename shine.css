@@ -57,6 +57,12 @@ body {
 
 #sidebar div.block a {
   color: #8C9FBC;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.tweet-author {
+  display: none;
 }
 
 #logo {
@@ -189,6 +195,10 @@ body.not-front .node-comment-count {
 
 .node .content p {
   margin-bottom: 25px;
+  color: #6D6D6D;
+}
+
+.node .content p a {
   color: #6D6D6D;
 }
 
